@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+paru -S bitwarden-cli chromium fzf go jq mkcert nvm opencode-bin parallel sqlite
