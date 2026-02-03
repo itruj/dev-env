@@ -13,3 +13,7 @@ fi
 if [ -d "$HOME/.local/scripts" ] ; then
     PATH="$HOME/.local/scripts:$PATH"
 fi
+
+export TZ=UTC
+
+source $HOME/.local/scripts/last-backup-checker.sh
