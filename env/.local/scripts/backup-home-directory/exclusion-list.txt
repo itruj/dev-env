@@ -1,0 +1,12 @@
+.cache
+.docker
+.local/share/mise/installs/
+.local/share/nvim/
+.local/state/mise/
+.local/state/nvim/
+.npm
+**/.venv/
+**/cache/
+**/*cache*/
+**/Cache*/
+**/node_modules/
