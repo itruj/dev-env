@@ -1,0 +1,6 @@
+[SddmGreeterTheme]
+Name=Arch Linux
+Description=Minimal terminal-style login theme matching the Limine bootloader aesthetic
+Author=Arch Linux
+Type=sddm-theme
+Version=1.0

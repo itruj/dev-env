@@ -1,0 +1,8 @@
+# Changes require a restart to take effect.
+
+# Ensure Arch Linux bins and scripts are in the path
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/scripts:$PATH"
+
+# Set default terminal and editor
+source ~/.config/uwsm/default

@@ -1,0 +1,11 @@
+[Plymouth Theme]
+Name=Arch Linux
+Description=Arch Linux splash screen.
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/archlinux
+ScriptFile=/usr/share/plymouth/themes/archlinux/archlinux.script
+ConsoleLogBackgroundColor=0x1a1b26
+MonospaceFont=Cantarell 11
+Font=Cantarell 11

@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-paru -S bitwarden-cli chromium fzf go jq mkcert nvm opencode-bin parallel sqlite
+sudo pacman -S --needed --noconfirm \
+    jq mkcert neovim ollama opencode parallel sqlite tmux

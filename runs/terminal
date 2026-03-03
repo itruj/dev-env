@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+sudo pacman -S --needed --noconfirm \
+    alacritty btop eza fastfetch ffmpeg fzf jp2a ripgrep rsync unzip wget
