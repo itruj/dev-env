@@ -6,3 +6,6 @@ export PATH="$HOME/.local/scripts:$PATH"
 
 # Set default terminal and editor
 source ~/.config/uwsm/default
+
+# Activate mise if present on the system
+cmd-present mise && eval "$(mise activate bash)"

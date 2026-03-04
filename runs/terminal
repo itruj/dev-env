@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
 sudo pacman -S --needed --noconfirm \
-    alacritty btop eza fastfetch ffmpeg fzf jp2a ripgrep rsync unzip wget
+    alacritty btop eza fastfetch ffmpeg fzf jp2a ripgrep rsync starship unzip wget zoxide
+
+paru -S --needed --noconfirm \
+    ltunify try

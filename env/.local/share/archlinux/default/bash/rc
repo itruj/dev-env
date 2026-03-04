@@ -1,0 +1,6 @@
+source ~/.local/share/archlinux/default/bash/envs
+source ~/.local/share/archlinux/default/bash/shell
+source ~/.local/share/archlinux/default/bash/aliases
+source ~/.local/share/archlinux/default/bash/functions
+source ~/.local/share/archlinux/default/bash/init
+[[ $- == *i* ]] && bind -f ~/.local/share/archlinux/default/bash/inputrc

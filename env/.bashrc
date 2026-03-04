@@ -1,28 +1,14 @@
-#
-# ~/.bashrc
-#
-
-# If not running interactively, don't do anything
+# If not running interactively, don't do anything (leave this at the top of this file)
 [[ $- != *i* ]] && return
 
-if command -v eza &> /dev/null; then
-  alias ls='eza -lh --group-directories-first --icons=auto'
-  alias lsa='ls -a'
-  alias lt='eza --tree --level=2 --long --icons --git'
-  alias lta='lt -a'
-fi
+# All the default Omarchy aliases and functions
+# (don't mess with these directly, just overwrite them here!)
+source ~/.local/share/archlinux/default/bash/rc
 
-alias grep='grep --color=auto'
-# PS1='[\u@\h \W]\$ '
+# Add your own exports, aliases, and functions here.
+#
+# Make an alias for invoking commands you use constantly
+# alias p='python'
+export TZ=UTC
 
-if command -v starship &> /dev/null; then
-  eval "$(starship init bash)"
-fi
-
-if command -v fzf &> /dev/null; then
-  eval "$(fzf --bash)"
-fi
-
-if command -v mise &> /dev/null; then
-  eval "$(mise activate bash)"
-fi
+source $HOME/.local/scripts/last-backup-checker.sh

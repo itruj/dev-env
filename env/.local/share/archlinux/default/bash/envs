@@ -1,0 +1,7 @@
+# Editor used by CLI
+export SUDO_EDITOR="$EDITOR"
+export BAT_THEME=ansi
+
+# Duplicated from .config/uwsm/env so SSH works too
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/scripts:$PATH"
