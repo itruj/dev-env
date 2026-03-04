@@ -3,7 +3,7 @@ TARGET_OS_NAME="Arch Linux"
 ESP_PATH="/boot"
 
 KERNEL_CMDLINE[default]="root=UUID=3be4b45d-a43a-4d21-a164-c591d48fb64c rw"
-KERNEL_CMDLINE[default]+=" quiet splash"
+KERNEL_CMDLINE[default]+=" quiet splash acpi_backlight=native"
 
 ENABLE_LIMINE_FALLBACK=yes
 
