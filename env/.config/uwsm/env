@@ -8,4 +8,4 @@ export PATH="$HOME/.local/scripts:$PATH"
 source ~/.config/uwsm/default
 
 # Activate mise if present on the system
-cmd-present mise && eval "$(mise activate bash)"
+cmd-present mise && eval "$(mise activate bash --shims)"
