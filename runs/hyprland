@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 sudo pacman -S --needed --noconfirm \
-    bluetui bluez brightnessctl chromium gtk4-layer-shell hyprland hyprpicker hyprpolkitagent hyprsunset libnewt libnotify mako \
-    nautilus noto-fonts pipewire pipewire-alsa pipewire-jack pipewire-pulse plymouth qt5-wayland qt6-wayland sddm swaybg swayosd ttf-jetbrains-mono-nerd uwsm \
-    ttf-nerd-fonts-symbols-common waybar wireplumber wl-clipboard xdg-desktop-portal-gtk xdg-desktop-portal-hyprland
+    bluetui bluez brightnessctl chromium gimp gtk4-layer-shell hypridle hyprland hyprlock hyprpicker hyprpolkitagent hyprsunset kvantum-qt5 libnewt libnotify \
+    libreoffice-fresh mako nautilus noto-fonts pipewire pipewire-alsa pipewire-jack pipewire-pulse plymouth qt5-wayland qt6-wayland sddm swaybg swayosd \
+    ttf-jetbrains-mono-nerd uwsm ttf-nerd-fonts-symbols-common waybar wireplumber wl-clipboard xdg-desktop-portal-gtk xdg-desktop-portal-hyprland
 
 paru -S --needed --noconfirm \
     hyprshade limine-mkinitcpio-hook walker xdg-terminal-exec
