@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Launch the Arch Linux audio controls TUI (provided by wiremix).
+
+launch-or-focus-tui wiremix

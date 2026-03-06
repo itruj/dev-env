@@ -57,7 +57,7 @@
   "cpu": {
     "interval": 5,
     "format": "󰍛",
-    "on-click": "omarchy-launch-or-focus-tui btop",
+    "on-click": "launch-or-focus-tui btop",
     "on-click-right": "alacritty"
   },
   "clock": {
@@ -109,7 +109,7 @@
   },
   "pulseaudio": {
     "format": "{icon}",
-    "on-click": "omarchy-launch-audio",
+    "on-click": "launch-audio",
     "on-click-right": "pamixer -t",
     "tooltip-format": "Playing at {volume}%",
     "scroll-step": 5,
@@ -143,8 +143,8 @@
     "return-type": "json"
   },
   "custom/idle-indicator": {
-    "on-click": "omarchy-toggle-idle",
-    "exec": "$OMARCHY_PATH/default/waybar/indicators/idle.sh",
+    "on-click": "toggle-idle",
+    "exec": "~/.local/share/archlinux/default/waybar/indicators/idle.sh",
     "signal": 9,
     "return-type": "json"
   },
