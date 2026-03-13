@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 sudo pacman -S --needed --noconfirm \
-    jq mise mkcert neovim ollama opencode parallel sqlite tmux
+    clang jq lua51 luarocks mise mkcert neovim ollama opencode parallel sqlite tmux

@@ -10,5 +10,7 @@ source ~/.local/share/archlinux/default/bash/rc
 # Make an alias for invoking commands you use constantly
 # alias p='python'
 export TZ=UTC
+export PATH=$HOME/.cargo/bin:$PATH
+export PATH=$PATH:/usr/local/go/bin
 
 source $HOME/.local/scripts/last-backup-checker.sh
