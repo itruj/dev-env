@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 sudo pacman -S --needed --noconfirm \
-    bluetui bluez brightnessctl chromium gimp gnome-calculator gnome-themes-extra gtk4-layer-shell hypridle hyprland hyprlock hyprpicker hyprpolkitagent hyprsunset imv kvantum-qt5 libnewt libnotify \
-    libreoffice-fresh mako mpv nautilus noto-fonts noto-fonts-cjk noto-fonts-emoji pipewire pipewire-alsa pipewire-jack pipewire-pulse plymouth qt5-wayland qt6-wayland \
-    sddm swaybg swayosd ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols-common uwsm waybar wireplumber wl-clipboard xdg-desktop-portal-gtk xdg-desktop-portal-hyprland
+    bluetui bluez brightnessctl chromium gimp gnome-calculator gnome-themes-extra gpu-screen-recorder gtk4-layer-shell hypridle hyprland hyprlock hyprpicker hyprpolkitagent \
+    hyprsunset imv kvantum-qt5 libnewt libnotify libreoffice-fresh mako mpv nautilus noto-fonts noto-fonts-cjk noto-fonts-emoji pipewire pipewire-alsa pipewire-jack pipewire-pulse \
+    plymouth qt5-wayland qt6-wayland sddm swaybg swayosd ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols-common uwsm waybar wireplumber wl-clipboard xdg-desktop-portal-gtk xdg-desktop-portal-hyprland
 
 paru -S --needed --noconfirm \
     hyprshade limine-mkinitcpio-hook walker xdg-terminal-exec yaru-icon-theme
