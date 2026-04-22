@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 sudo pacman -S --needed --noconfirm \
-    alacritty btop dust eza fastfetch ffmpeg fzf impala jp2a ripgrep rsync starship unzip wiremix wget zoxide
+    alacritty btop dust eza fastfetch ffmpeg fzf impala jp2a libdvdcss ripgrep rsync starship unzip wiremix wget zoxide
 
 paru -S --needed --noconfirm \
     ltunify python-terminaltexteffects try
